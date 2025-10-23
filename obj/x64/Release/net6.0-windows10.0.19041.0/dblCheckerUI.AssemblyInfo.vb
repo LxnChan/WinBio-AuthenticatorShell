@@ -17,7 +17,7 @@ Imports System.Reflection
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Release"),  _
  Assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright (c) 2025 LxnChan, All right reserved."),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e365f21ec615440a474362139f34fa2a4cb3914"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eec2385eba0825001c7c8396c28d438119985094"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("dblCheckerUI"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("dblCheckerUI"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

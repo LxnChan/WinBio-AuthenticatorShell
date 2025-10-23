@@ -17,3 +17,5 @@ C:\Users\wtf\Desktop\dblChecker\dblCheckerUI\obj\x64\Release\net6.0-windows10.0.
 C:\Users\wtf\Desktop\dblChecker\dblCheckerUI\obj\x64\Release\net6.0-windows10.0.19041.0\refint\dblCheckerUI.dll
 C:\Users\wtf\Desktop\dblChecker\dblCheckerUI\obj\x64\Release\net6.0-windows10.0.19041.0\dblCheckerUI.genruntimeconfig.cache
 C:\Users\wtf\Desktop\dblChecker\dblCheckerUI\obj\x64\Release\net6.0-windows10.0.19041.0\ref\dblCheckerUI.dll
+C:\Users\wtf\Desktop\dblChecker\dblCheckerUI\bin\x64\Release\net6.0-windows10.0.19041.0\config.json
+C:\Users\wtf\Desktop\dblChecker\dblCheckerUI\obj\x64\Release\net6.0-windows10.0.19041.0\dblCheckerUI.Resources.resources

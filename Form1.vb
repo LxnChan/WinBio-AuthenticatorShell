@@ -16,8 +16,27 @@ Public Class frmMain
 
     Private Sub frmMain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         LoadConfig()
+        LoadAppearence()
         Timer1.Interval = 1000 ' Check every second
         Timer1.Start()
+    End Sub
+
+    Private Sub LoadAppearence()
+        Dim logoPath As String = Path.Combine(Application.StartupPath, "logo.png")
+        Dim bgPath As String = Path.Combine(Application.StartupPath, "bg.png")
+        If File.Exists(logoPath) Then
+            tpbLogo.Image = Image.FromFile(logoPath)
+        Else
+            tpbLogo.Visible = False
+        End If
+        If File.Exists(bgPath) Then
+            Me.BackgroundImage = Image.FromFile(bgPath)
+        End If
+        For Each ctrl As Control In Me.Controls
+            If TypeOf ctrl Is Label Then
+                ctrl.BackColor = Color.Transparent
+            End If
+        Next
     End Sub
 
     Private Sub LoadConfig()
@@ -108,5 +127,9 @@ Public Class frmMain
         ElseIf staLabelCurrentID.Text = "Error: 0x80098008" Then
             MsgBox("WINBIO_E_NO_MATCH" & vbCrLf & "指纹读取成功，但与已注册的任何指纹模板都不匹配", vbCritical, "Failed")
         End If
+    End Sub
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs)
+
     End Sub
 End Class

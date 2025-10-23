@@ -33,34 +33,37 @@ Partial Class frmMain
         staLabelCurrentID = New Label()
         btnLaunch = New Button()
         Timer1 = New Timer(components)
+        tpbLogo = New clsTransparentPictureBox()
+        CType(tpbLogo, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' btnExit
         ' 
-        btnExit.Location = New Point(664, 0)
+        btnExit.Location = New Point(910, 0)
         btnExit.Margin = New Padding(2)
         btnExit.Name = "btnExit"
-        btnExit.Size = New Size(52, 35)
+        btnExit.Size = New Size(50, 35)
         btnExit.TabIndex = 0
         btnExit.Text = "Exit"
         btnExit.UseVisualStyleBackColor = True
         ' 
         ' btnAAuth
         ' 
-        btnAAuth.Location = New Point(221, 196)
+        btnAAuth.BackColor = SystemColors.ButtonHighlight
+        btnAAuth.Location = New Point(319, 306)
         btnAAuth.Margin = New Padding(2)
         btnAAuth.Name = "btnAAuth"
-        btnAAuth.Size = New Size(114, 54)
+        btnAAuth.Size = New Size(110, 50)
         btnAAuth.TabIndex = 1
         btnAAuth.Text = "Auth A"
-        btnAAuth.UseVisualStyleBackColor = True
+        btnAAuth.UseVisualStyleBackColor = False
         ' 
         ' btnBAuth
         ' 
-        btnBAuth.Location = New Point(356, 196)
+        btnBAuth.Location = New Point(497, 306)
         btnBAuth.Margin = New Padding(2)
         btnBAuth.Name = "btnBAuth"
-        btnBAuth.Size = New Size(114, 54)
+        btnBAuth.Size = New Size(110, 50)
         btnBAuth.TabIndex = 2
         btnBAuth.Text = "Auth B"
         btnBAuth.UseVisualStyleBackColor = True
@@ -68,27 +71,29 @@ Partial Class frmMain
         ' staLabelA
         ' 
         staLabelA.AutoSize = True
-        staLabelA.Location = New Point(252, 157)
+        staLabelA.Location = New Point(350, 267)
         staLabelA.Margin = New Padding(2, 0, 2, 0)
         staLabelA.Name = "staLabelA"
         staLabelA.Size = New Size(60, 17)
         staLabelA.TabIndex = 3
         staLabelA.Text = "Not Pass"
+        staLabelA.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' staLabelB
         ' 
         staLabelB.AutoSize = True
-        staLabelB.Location = New Point(388, 157)
+        staLabelB.Location = New Point(529, 267)
         staLabelB.Margin = New Padding(2, 0, 2, 0)
         staLabelB.Name = "staLabelB"
         staLabelB.Size = New Size(60, 17)
         staLabelB.TabIndex = 4
         staLabelB.Text = "Not Pass"
+        staLabelB.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' lblTips1
         ' 
         lblTips1.AutoSize = True
-        lblTips1.Location = New Point(11, 429)
+        lblTips1.Location = New Point(11, 514)
         lblTips1.Margin = New Padding(2, 0, 2, 0)
         lblTips1.Name = "lblTips1"
         lblTips1.Size = New Size(71, 17)
@@ -99,7 +104,7 @@ Partial Class frmMain
         ' staLabelCurrentID
         ' 
         staLabelCurrentID.AutoSize = True
-        staLabelCurrentID.Location = New Point(86, 429)
+        staLabelCurrentID.Location = New Point(86, 514)
         staLabelCurrentID.Margin = New Padding(2, 0, 2, 0)
         staLabelCurrentID.Name = "staLabelCurrentID"
         staLabelCurrentID.Size = New Size(44, 17)
@@ -109,7 +114,7 @@ Partial Class frmMain
         ' btnLaunch
         ' 
         btnLaunch.Enabled = False
-        btnLaunch.Location = New Point(590, 390)
+        btnLaunch.Location = New Point(835, 475)
         btnLaunch.Margin = New Padding(2)
         btnLaunch.Name = "btnLaunch"
         btnLaunch.Size = New Size(114, 54)
@@ -122,11 +127,23 @@ Partial Class frmMain
         Timer1.Enabled = True
         Timer1.Interval = 1
         ' 
+        ' tpbLogo
+        ' 
+        tpbLogo.BackColor = Color.Transparent
+        tpbLogo.Location = New Point(12, 12)
+        tpbLogo.Name = "tpbLogo"
+        tpbLogo.Size = New Size(170, 40)
+        tpbLogo.SizeMode = PictureBoxSizeMode.Zoom
+        tpbLogo.TabIndex = 9
+        tpbLogo.TabStop = False
+        ' 
         ' frmMain
         ' 
         AutoScaleDimensions = New SizeF(7F, 17F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(715, 455)
+        BackgroundImageLayout = ImageLayout.Zoom
+        ClientSize = New Size(960, 540)
+        Controls.Add(tpbLogo)
         Controls.Add(btnLaunch)
         Controls.Add(staLabelCurrentID)
         Controls.Add(lblTips1)
@@ -142,6 +159,7 @@ Partial Class frmMain
         Name = "frmMain"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Authencation Form"
+        CType(tpbLogo, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -155,5 +173,6 @@ Partial Class frmMain
     Friend WithEvents staLabelCurrentID As Label
     Friend WithEvents btnLaunch As Button
     Friend WithEvents Timer1 As Timer
+    Friend WithEvents tpbLogo As clsTransparentPictureBox
 
 End Class
