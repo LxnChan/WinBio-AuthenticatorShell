@@ -35,15 +35,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "dblCheckerUI",
+              "Title": "dblCheckerUI.vbproj",
               "DocumentMoniker": "C:\\Users\\wtf\\Desktop\\dblChecker\\dblCheckerUI\\dblCheckerUI.vbproj",
               "RelativeDocumentMoniker": "dblCheckerUI.vbproj",
               "ToolTip": "C:\\Users\\wtf\\Desktop\\dblChecker\\dblCheckerUI\\dblCheckerUI.vbproj",
               "RelativeToolTip": "dblCheckerUI.vbproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003380|",
-              "WhenOpened": "2025-10-23T02:51:08.99Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-23T02:51:08.99Z"
             },
             {
               "$type": "Document",
@@ -54,8 +53,7 @@
               "ToolTip": "C:\\Users\\wtf\\Desktop\\dblChecker\\dblCheckerUI\\dblCheckerUI.vbproj",
               "RelativeToolTip": "dblCheckerUI.vbproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003380|",
-              "WhenOpened": "2025-10-23T02:51:20.887Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-23T02:51:20.887Z"
             },
             {
               "$type": "Document",
@@ -67,8 +65,7 @@
               "RelativeToolTip": "WinBioNative.vb",
               "ViewState": "AgIAAAoAAAAAAAAAAAAAwFMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-10-23T02:17:48.756Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-23T02:17:48.756Z"
             },
             {
               "$type": "Document",
@@ -78,7 +75,7 @@
               "RelativeDocumentMoniker": "Form1.vb",
               "ToolTip": "C:\\Users\\wtf\\Desktop\\dblChecker\\dblCheckerUI\\Form1.vb",
               "RelativeToolTip": "Form1.vb",
-              "ViewState": "AgIAABQAAAAAAAAAAAAkwC8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAswC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-10-22T07:50:54.2Z",
               "EditorCaption": ""
